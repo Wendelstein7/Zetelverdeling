@@ -1,4 +1,4 @@
-#!/usr/bin/env/python3
+#!/bin/python3
 
 import sys
 import pandas as pd
@@ -23,7 +23,7 @@ parser.add_argument("--seats", type=int,
 # Parse the command line arguments
 args = parser.parse_args()
 # Get the values from the arguments
-file_name = args.data
+file_name = args.file
 number_of_seats = args.seats
 
 
